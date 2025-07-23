@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Movie Details</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header><h1 id="movieTitle"></h1></header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="movies.html">Movies</a>
+    <a href="booking.html">Book Tickets</a>
+  </nav>
+  <main>
+    <img id="moviePoster" />
+    <p><strong>Cast:</strong> <span id="cast"></span></p>
+    <p><strong>Genre:</strong> <span id="genre"></span></p>
+    <p><strong>Review:</strong> <span id="review"></span></p>
+    <p><strong>Price:</strong> ₹<span id="price"></span></p>
+    <button onclick="location.href='booking.html'">Book Now</button>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

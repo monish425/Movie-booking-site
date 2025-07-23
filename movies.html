@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Movies</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header><h1>Now Showing</h1></header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="movies.html">Movies</a>
+    <a href="booking.html">Book Tickets</a>
+  </nav>
+  <main>
+    <div class="movie-grid">
+      <!-- Repeat this block for each movie -->
+      <div class="movie-card" onclick="selectMovie('Coolie')">
+        <img src="assets/coolie.jpg" alt="Coolie" />
+        <h3>Coolie</h3>
+        <p>Sandwood | ₹250</p>
+      </div>
+      <div class="movie-card" onclick="selectMovie('Thug Life')">
+        <img src="assets/thuglife.jpg" alt="Thug Life" />
+        <h3>Thug Life</h3>
+        <p>Sandwood | ₹280</p>
+      </div>
+      <!-- Add others: Veera, Kadhalikka, Dhruva, etc. -->
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
